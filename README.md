@@ -1,21 +1,22 @@
 # TravelTide-CustomerSegmentation
 Customer segmentation using SQL, Python, feature engineering, and machine learning for optimizing TravelTide's rewards program
-##**Introduction**
+
+<h2>Introduction</h2>
 
 To address growing competition and improve customer retention, travel company has launched a project aimed at creating loyalty perks for the clients. The objective is to identify the main factors that drive customer loyalty and develop perks that will enhance customer relationships, encourage repeat bookings, and elevate overall satisfaction. This report outlines the insights gained from data analysis, which included dividing the customer base into eight segments and offers practical recommendations.
 
-##**Methodology**
+<h2>Methodology</h2>
 
 The analysis included an in-depth examination of customer booking habits, survey feedback, and loyalty behavior. It was applied clustering methods to divide the customer base into eight unique segments, considering factors like booking frequency, travel preferences, spending behavior, and customer feedback.
 
-##**Google Colab Notebook**
+<h2>Google Colab Notebook</h2>
 Access the Google Colab notebook for this project <a href="https://colab.research.google.com/drive/1DEQMf07xM2oRx_Ua50RPh1ztxMZr6yOr#scrollTo=36REOwN6CxwT">here</a>.
 
-##**Key Findings**
+<h2>Key Findings</h2>
 
 We found eight groups that helps us understand our clients better, so as to assign specific perks that will be considered of value to them.
 
-##**Recommendations**
+<h2>Recommendations</h2>
 
 Based on these findings, ich recommend the following steps:
 
@@ -24,7 +25,8 @@ Based on these findings, ich recommend the following steps:
 3. Continuous Feedback Loop: Establish a mechanism for continuous feedback from customers on the loyalty perks offered.
 
 
-####**A/B Testing to Evaluate Perk Effectiveness**####
+**A/B Testing to Evaluate Perk Effectiveness**
+
 ***Objective***: Test the effectiveness of perks in increasing user engagement (e.g., booking rate, money spent, session duration) using A/B testing.
 
 ***Method***:
@@ -43,7 +45,7 @@ Which customer segments respond better to which perks (e.g., luxury travelers mi
 Chi-squared test: This statistical test we can use to check whether the differences in booking behavior between those who received perks and those who didn’t are statistically significant.
 Hypothesis: The group that receives perks will show higher engagement in terms of booking rate and money spent, especially among frequent travelers and high-spending customers.
 
-####**Long-Term Strategy: Supervised Learning/Classification for Personalization**####
+**Long-Term Strategy: Supervised Learning/Classification for Personalization**
 
 To build a more robust, future-proof recommendation system:
 
